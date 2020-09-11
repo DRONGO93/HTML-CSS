@@ -1,0 +1,144 @@
+body {background: #f8f8f8;}/*Цвет фона белый (Ну почти) #f8f8f8 на всех страницах.*/
+
+.container{width: 10px;height: 10px; margin: auto;}/*Блок по заданию*/
+
+.header {height: 50px;}/*Задаем высоту по заданию*/
+
+
+/*Настройка головы магазина*/
+.LogoTip {
+    background-image: url(img/IconC.png);
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position: 300px 1px;}/*Настройка логотипа*/
+
+/*Меню для главной страници*/
+.Menu {
+    float: right;       /*Равнение по правому краю*/
+    font-size: 20px;    /*Размер текста в меню*/
+    text-align: left;   /*Равнение текста по краю*/
+    font-style: italic;}/*Настройка меню*/
+
+.Menu li {
+    border-radius: 5px;    /*Закругление кнопки*/
+    display: inline;       /*Построить в ряд кнопки*/
+    background-color: brown;/*Заливка кнопки*/
+    width: 180px;height: 50px;/*Размер таблички*/
+    list-style-type: none; /*Убираем пункты*/
+    border: 2px solid #000;/*Рисуем табличку вокруг меню*/
+}
+
+/*Меню для ленты кнопок*/
+.MenuV {
+    font-size: 20px;/*Размер текста в меню*/
+    text-align: left;/*Равнение по краю*/
+    font-style: italic;}/*Настройка меню*/
+
+.MenuV li {
+    border-radius: 5px;    /*Закругление кнопки*/
+    display: inline;       /*Построить в ряд кнопки*/
+    background-color: brown;/*Заливка кнопки*/
+    width: 180px;height: 50px;/*Размер таблички*/
+    list-style-type: none; /*Убираем пункты*/
+    border: 2px solid #000;/*Рисуем табличку вокруг меню*/
+}
+
+/*Настройка меню для коталога*/
+.MenuM {                
+    font-size: 20px;    /*Размер текста в меню*/
+    text-align: left;   /*Равнение текста по краю*/
+    font-style: italic;}/*Настройка меню*/
+
+.MenuM li {
+    /*display: inline;        Построить в ряд кнопки*/
+    border-radius: 5px;    /*Закругление кнопки*/
+    background-color: brown;/*Заливка кнопки*/
+    width: 180px;height: 50px;/*Размер таблички*/
+    list-style-type: none; /*Убираем пункты*/
+    border: 2px solid #000;}/*Рисуем табличку вокруг меню*/
+
+    
+
+/*Настройка вида ссылки*/
+a:visited:hover {color: azure;}/*Псевдокласс для смены цвета всех ссылок при наведении*/
+a:visited:active {color: black;}/*Псевдокласс для нажатия на кнопку*/
+
+
+.Razdelitel {display: inline;}
+
+.FonKartinkaB {
+    background-image: url(img/OldNew.jpg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: 190px 175px;}/*Печать баяна*/
+
+.FonKartinkaG {
+    background-image: url(img/GuardsGood.gif);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: 590px 710px;}/*Печать гвардии*/
+
+
+.FonKartinkaM {
+    background-image: url(img/Mars.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 475px 190px;}/*Печать Механикус*/
+
+
+.Ramka {border: 4px solid green;}/*Рамка использовать нельзя по заданию*/
+
+.Ramka2 {outline: 2px solid #000;}/*Рамка без бордера*/
+
+/*Настройка текста*/
+.ZagolovkiTovara {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;}/*Редактор оглавлений текста товара*/
+
+.KratkijTextTovara {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16 px;}/*Редактор краткого текста товара*/
+
+.PodrobnijTextTovara {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;}/*Редактор подробного товара*/
+
+.SpisokXarakteristikTovara {
+    color: coral;
+    font-size: 12px;
+    font-variant: small-caps;}/*Произволдьный редактор*/
+
+.ZaglCvetPerv:first-letter {
+    font-size: 25px;
+    color: brown;}
+
+INPUT[type="email"]:focus {
+    background: cornsilk;
+    color: cadetblue;}/*Изменяем параметры при вводе поля Emaila по типу email а не по классу страница контактов.*/
+
+.TextZaglavnij {text-transform: capitalize;}
+
+/*Настройка вводимого текста в контактах*/
+table {
+    border: 2px solid #000;
+    border-spacing: 5px;}/*Рисуем табличку и задаем размер*/
+
+td {border: 2px solid #000;}
+
+/*Настройка подвала*/
+.footer {
+    text-align: right;          /*Ровняем текст по правому краю*/
+    height: 120px;              /*Настройка высоты*/
+    background-color: darkgray;}/*Заливаем фон*/
+
+/*Класс для подвала. (Не забыть покормить пленника.)*/
+
+/*Вообще переодически настройки из файла style.css перестают применяться к страничке.
+  Посоветуйте какое нибуть решение. style.css автоматически сохраняется через программу Brackets, браузер ГуглХром и страничку обновляю ручками. Скорее всего ошибка в коде на уровне синтаксиса.*/
